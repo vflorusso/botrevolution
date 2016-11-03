@@ -6,7 +6,7 @@ TIME: 11:30 am to 1:10 pm
 LENGTH: 1:40 h  
 
 ## Prerequisites
-- have a PC or a MAC with Nodejs runtime > 10.0 installed. It can be installed with instructions available [here]](https://nodejs.org/en/download/) 
+- have a PC or a MAC with Nodejs runtime > 10.0 installed. It can be installed with instructions available [here](https://nodejs.org/en/download/) 
 - Clone the Bot Node SDK from [here](https://github.com/Microsoft/BotBuilder/tree/master/Node)  
 - Install the npm bot builder  
 `npm install -g botbuilder `
