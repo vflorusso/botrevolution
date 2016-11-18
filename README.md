@@ -6,8 +6,11 @@ TIME: 11:30 am to 1:10 pm
 LENGTH: 1:40 h  
 
 ## Prerequisites
-- have a PC or a MAC with Nodejs runtime > 10.0 installed. It can be installed with instructions available [here](https://nodejs.org/en/download/) 
-- Clone the Bot Node SDK from [here](https://github.com/Microsoft/BotBuilder/tree/master/Node)  
-- Install the npm bot builder  
-`npm install -g botbuilder `
-
+- Have a laptop with Windows, Linux or Mac with Node.js runtime > 10.0 installed. Find instructions available [here](https://nodejs.org/en/download/)
+- Install the Bot Framework Emulator (Windows, Linux and Mac) from [here](https://emulator.botframework.com/)
+- You need to run tunneling software so that your bot can accept incoming requests from the outside world when hosted in your computer behind a firewal. Install `ngrok` tunneling software from [here](https://ngrok.com/download)
+- You need a Microsoft Live account to publish your Bot and connect it to external channels (i.e. Skype, Telegram, Facebook, Slack, etc.) and to create your own Language Understanding Intelligent Service (LUIS) model. If you don't have a Microsoft account yet, yo can create it [here](https://login.live.com/it)
+- For the channels you want your Bot to work on, you need a user account on each of them. We also suggest to install the desktop applications for the major channels ([Skype](https://www.skype.com/download-skype/skype-for-computer/), [Telegram](https://telegram.org/apps#desktop-apps) and [Slack](https://slack.com/downloads)).
+- To speedup the setup phase, you might install the prerequisite Node.js packages in your local woking directory:
+  * `npm init`
+  * `npm install botbuilder restify dotenv-extended --save`
