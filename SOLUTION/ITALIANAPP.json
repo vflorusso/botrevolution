@@ -1,0 +1,179 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "ITALIANAPP",
+  "desc": "",
+  "culture": "it-it",
+  "intents": [
+    {
+      "name": "LoadProfile"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "SearchUser"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Profile"
+    },
+    {
+      "name": "User"
+    }
+  ],
+  "composites": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "carica il profilo di gjuljo",
+      "intent": "LoadProfile",
+      "entities": [
+        {
+          "entity": "Profile",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "carica gjuljo",
+      "intent": "LoadProfile",
+      "entities": [
+        {
+          "entity": "Profile",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "cerca utente",
+      "intent": "SearchUser",
+      "entities": []
+    },
+    {
+      "text": "cerca mario rossi",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "cerca l'utente mario rossi",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "cerca utenti",
+      "intent": "SearchUser",
+      "entities": []
+    },
+    {
+      "text": "cerca",
+      "intent": "SearchUser",
+      "entities": []
+    },
+    {
+      "text": "cerca giulio santoli",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "cerca piero",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "cerca l'utente mario",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "cerca mario",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "cerca gino",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "cerca pino",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "cercare mario rossi",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "cercami mario rossi",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 2
+        }
+      ]
+    }
+  ]
+}

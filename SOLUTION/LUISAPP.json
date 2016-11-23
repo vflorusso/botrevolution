@@ -1,0 +1,215 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "LUISAPP",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "LoadProfile"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "SearchUser"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Profile"
+    },
+    {
+      "name": "User"
+    }
+  ],
+  "composites": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "sarch for user mario rossi",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "sarch for mario rossi",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 2,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "search user ciccio",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "find giulio",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "find mario rossi",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "find ciccio cappuccio",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "seach for user",
+      "intent": "SearchUser",
+      "entities": []
+    },
+    {
+      "text": "reload gjuljo",
+      "intent": "LoadProfile",
+      "entities": [
+        {
+          "entity": "Profile",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "load profile",
+      "intent": "LoadProfile",
+      "entities": []
+    },
+    {
+      "text": "load alfa beta",
+      "intent": "LoadProfile",
+      "entities": [
+        {
+          "entity": "Profile",
+          "startPos": 1,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "load profile geektrainer",
+      "intent": "LoadProfile",
+      "entities": [
+        {
+          "entity": "Profile",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "look for mario",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "search user",
+      "intent": "SearchUser",
+      "entities": []
+    },
+    {
+      "text": "search paolo rossi",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "ciao",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "aaa",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "search ciccio",
+      "intent": "SearchUser",
+      "entities": [
+        {
+          "entity": "User",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "load geektrainer",
+      "intent": "LoadProfile",
+      "entities": [
+        {
+          "entity": "Profile",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "hello",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}
