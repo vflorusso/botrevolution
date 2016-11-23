@@ -37,6 +37,11 @@ intents.matches(/^search/i, [
             });
         }
     }
+]).onDefault([
+        function (session, results, next) {
+            builder.Prompts.text(session, 'Hi, type "search <someone>" to start.');
+            next();
+        }
 ]);
 
 function createCard(session, profile) {

@@ -58,6 +58,11 @@ intents.matches(/^search/i, [
             session.send(message);
         });
     }
+]).onDefault([
+        function (session, results, next) {
+            builder.Prompts.text(session, 'Hi, type "search <someone>" to start.');
+            next();
+        }
 ]);
 
 /* LISTEN IN THE CHAT CONNECTOR */
