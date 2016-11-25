@@ -14,3 +14,6 @@ LENGTH: 1:40 h
 - To speedup the setup phase, you might install the prerequisite Node.js packages in your local woking directory:
   * `npm init`
   * `npm install botbuilder restify dotenv-extended --save`
+
+
+Lab slides can be downloaded [here](https://vitolofiles.blob.core.windows.net/public/CODEMOTION%20MILAN%202016%20-%20Bot%20Framework%20v1.pptx)
