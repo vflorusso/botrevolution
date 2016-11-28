@@ -16,4 +16,4 @@ LENGTH: 1:40 h
   * `npm install botbuilder restify dotenv-extended --save`
 
 
-Lab slides can be downloaded [here](https://vitolofiles.blob.core.windows.net/public/CODEMOTION%20MILAN%202016%20-%20Bot%20Framework%20v1.pptx)
+Lab slides can found [here](http://www.slideshare.net/gjuljo/bot-revolution-lab-at-codemotion-milan-2016)
